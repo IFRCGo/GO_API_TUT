@@ -1,0 +1,12 @@
+#!/bin/bash
+# postBuild script for Binder
+# This runs after the environment is built
+
+# Create a sample .env file for users (without real token)
+echo "# IFRC GO API Configuration" > .env.example
+echo "# Get your token from: https://go.ifrc.org/account" >> .env.example
+echo "IFRC_API_TOKEN=your_token_here" >> .env.example
+echo "IFRC_USERNAME=your_email@example.com" >> .env.example
+
+echo "Binder environment ready!"
+echo "To use the notebooks, copy .env.example to .env and add your API token."
