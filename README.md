@@ -12,25 +12,29 @@ Click the badge above to launch the notebooks in your browser - no installation 
 
 ## 📓 Notebooks
 
-| Notebook | Description |
-|----------|-------------|
+| Notebook             | Description                         |
+| -------------------- | ----------------------------------- |
 | `notebook_1.ipynb` | Projects analysis by sector (Nepal) |
-| `notebook_2.ipynb` | Events analysis by country |
-| `notebook_3.ipynb` | Appeal documents fetcher |
-| `notebook_4.ipynb` | Project status distribution |
-| `notebook_5.ipynb` | Surge alerts analysis |
-| `notebook_6.ipynb` | Deaths by event type and country |
+| `notebook_2.ipynb` | Events analysis by country          |
+| `notebook_3.ipynb` | Appeal documents fetcher            |
+| `notebook_4.ipynb` | Project status distribution         |
+| `notebook_5.ipynb` | Surge alerts analysis               |
+| `notebook_6.ipynb` | Deaths by event type and country    |
 
 ### 🏠 Local Units Management
 
 Specialized notebooks for managing Red Cross / Red Crescent local units.
 
-| Notebook | Description |
-|----------|-------------|
+Note: You can only do a Bulk upload of local units, add information on new local unit type for a country or update exiting local unit information via the API only after you have been granted appropriate permissions.
+
+For National Society Users contact <im@ifrc.org> for necessary permissions.
+
+| Notebook                                 | Description                                                 |
+| ---------------------------------------- | ----------------------------------------------------------- |
 | `01_list_local_units_by_country.ipynb` | List local units for a specific country with status filters |
-| `02_patch_local_unit.ipynb` | Update specific fields of an existing local unit (Staging) |
-| `03_put_local_unit.ipynb` | Create or fully replace Emergency Response/Training units (Staging) |
-| `04_bulk_upload_local_units.ipynb` | Download templates and perform bulk uploads via Excel |
+| `02_patch_local_unit.ipynb`            | Update specific fields of an existing local unit (Staging)  |
+| `03_put_local_unit.ipynb`              | Create or fully replace a local unit type (Staging)         |
+| `04_bulk_upload_local_units.ipynb`     | Download templates and perform bulk uploads via Excel       |
 
 ## 🔧 Local Setup
 
@@ -66,7 +70,7 @@ Specialized notebooks for managing Red Cross / Red Crescent local units.
 
 To use these notebooks, you need an IFRC GO API token.
 
-**Follow the official guide to generate your token:**  
+**Follow the official guide to generate your token:**
 👉 [Generating an API Token - GO Wiki](https://go-wiki.ifrc.org/en/go-api/Connecting_to_GO_API#generating_an_api_token)
 
 Once you have your token, add it to your `.env` file:
